@@ -1,0 +1,71 @@
+.article-wrapper {
+	margin: auto;
+	width: 50%;
+}
+
+.article-container {
+	height: 170px;
+	border: 1px black solid;
+	box-sizing: border-box;
+	background-color: white;
+	margin-top: 15px;
+}
+
+.author,
+.post-date {
+	color: gray;
+}
+
+.post-title,
+.post-tags,
+.author {
+	margin-left: 65px;
+}
+
+.post-title {
+	margin-bottom: 0px;
+}
+
+.post-tags {
+	position: relative;
+	bottom: 10px;
+}
+
+.likes {
+	margin-left: 15px;
+	margin-right: 15px;
+	position: relative;
+	bottom: 50px;
+}
+
+.author {
+	position: relative;
+	bottom: 60px;
+	right: 40px;
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: relative;
+	bottom: 110px;
+	left: 12px;
+}
+
+.time-read {
+	position: relative;
+	left: 470px;
+	bottom: 85px;
+}
+
+.post-button {
+	background-color: blue;
+	color: white;
+	border: none;
+	height: 30px;
+	width: 60px;
+	position: relative;
+	left: 560px;
+	bottom: 130px;
+}
