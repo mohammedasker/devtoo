@@ -1,0 +1,9 @@
+.tag-container {
+	height: 300px;
+	overflow: auto;
+}
+
+.tag-lists {
+	list-style: none;
+	line-height: 2;
+}
