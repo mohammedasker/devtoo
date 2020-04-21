@@ -1,6 +1,5 @@
 import React from "react";
 
-import EventsCard from "../events-card/events-card";
 import "./sign-up.css";
 
 const SignUp = () => (
@@ -12,7 +11,6 @@ const SignUp = () => (
 			<button className="sidebar-left-button">Sign in With Twitter</button>
 			<button className="sidebar-left-button">Sign in With GitHub</button>
 		</div>
-		<EventsCard />
 	</div>
 );
 

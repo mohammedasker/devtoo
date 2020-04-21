@@ -1,7 +1,8 @@
 .article-wrapper {
 	margin: auto;
 	width: 50%;
-	padding-bottom: 640px;
+	padding-bottom: 1500px;
+	margin-right: 25px;
 }
 
 .article-container {
@@ -56,7 +57,7 @@
 
 .time-read {
 	position: relative;
-	left: 470px;
+	left: 450px;
 	bottom: 85px;
 }
 
@@ -67,6 +68,6 @@
 	height: 30px;
 	width: 60px;
 	position: relative;
-	left: 560px;
+	left: 545px;
 	bottom: 130px;
 }

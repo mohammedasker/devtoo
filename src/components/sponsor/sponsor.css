@@ -1,0 +1,17 @@
+.sponsor-container {
+	margin-left: 15px;
+}
+
+.sponsor-button {
+	width: 90%;
+	height: 35px;
+	background-color: gainsboro;
+	border: none;
+	margin-bottom: 20px;
+}
+
+.sponsor-image {
+	width: 100%;
+	height: auto;
+	max-width: 150px;
+}

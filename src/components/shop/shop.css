@@ -1,0 +1,15 @@
+.shop-container {
+	margin-left: 25px;
+}
+
+.shop-image {
+	width: 100%;
+	height: auto;
+	max-width: 250px;
+}
+
+.shop-text {
+	color: #3b49df;
+	margin-top: 0;
+	padding-top: 0;
+}
