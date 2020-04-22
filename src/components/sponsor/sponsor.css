@@ -8,6 +8,11 @@
 	background-color: gainsboro;
 	border: none;
 	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.sponsor-button:hover {
+	background-color: #d1d0d0;
 }
 
 .sponsor-image {

@@ -6,7 +6,7 @@ const MyTags = () => (
 	<div className="tag-container">
 		<ul className="tag-lists">
 			<li>
-				<b>My Tags</b>
+				<b>Design Your Experience</b>
 			</li>
 			<li>#javascript</li>
 			<li>#beginners</li>

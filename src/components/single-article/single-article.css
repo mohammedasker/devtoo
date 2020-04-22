@@ -1,16 +1,16 @@
 .article-wrapper {
 	margin: auto;
 	width: 50%;
-	padding-bottom: 2000px;
-	margin-right: 25px;
 }
 
 .article-container {
-	height: 170px;
-	border: 1px black solid;
-	box-sizing: border-box;
+	height: 100%;
+	box-shadow: 0px 0px 5px 0px rgba(189, 193, 209, 0.31);
+	border-radius: 5px;
 	background-color: white;
-	margin-top: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
 }
 
 .author,
@@ -18,47 +18,10 @@
 	color: gray;
 }
 
-.post-title,
-.post-tags,
-.author {
-	margin-left: 65px;
-}
-
-.post-title {
-	margin-bottom: 0px;
-}
-
-.post-tags {
-	position: relative;
-	bottom: 10px;
-}
-
-.likes {
-	margin-left: 15px;
-	margin-right: 15px;
-	position: relative;
-	bottom: 50px;
-}
-
-.author {
-	position: relative;
-	bottom: 60px;
-	right: 40px;
-}
-
 .avatar {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	position: relative;
-	bottom: 110px;
-	left: 12px;
-}
-
-.time-read {
-	position: relative;
-	left: 450px;
-	bottom: 85px;
 }
 
 .post-button {
@@ -67,7 +30,49 @@
 	border: none;
 	height: 30px;
 	width: 60px;
-	position: relative;
-	left: 545px;
-	bottom: 130px;
+	margin-top: 10px;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.post-button:hover {
+	background-color: #0000ce;
+}
+
+.custom-column-top {
+	display: flex;
+}
+
+.custom-column-bottom {
+	display: flex;
+}
+
+.custom-row {
+	display: flex;
+	flex-direction: column;
+	margin-left: 25px;
+}
+
+.time-read {
+	margin-left: 360px;
+}
+
+.avatar {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.like {
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.comment {
+	margin-top: 15px;
+	margin-left: 8px;
+}
+
+.post-title,
+.post-tags,
+.likes {
+	margin: 0;
 }

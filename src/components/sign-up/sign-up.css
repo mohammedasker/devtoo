@@ -13,6 +13,11 @@
 	font-size: 15px;
 	margin-top: 15px;
 	margin-left: 10px;
+	cursor: pointer;
+}
+
+.sidebar-left-button:hover {
+	background-color: #0000ce;
 }
 
 .card {
