@@ -1,0 +1,28 @@
+.challenge-header {
+	margin-left: 40px;
+	margin-bottom: 0px;
+}
+
+.challenge-list {
+	margin-bottom: 5px;
+	list-style: none;
+}
+
+.challenge-list::before {
+	content: "\2022";
+	color: #66e2d5;
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 2px;
+	font-size: 2em;
+}
+
+.fresh {
+	background-color: #fefa87;
+	padding: 2px;
+	font-size: 12px;
+}
+
+.challenge-small-list {
+	font-size: 12px;
+}
