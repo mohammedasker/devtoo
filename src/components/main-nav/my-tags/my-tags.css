@@ -2,11 +2,11 @@
 	height: 400px;
 	overflow: auto;
 	margin-right: 25px;
+	margin-top: 15px;
 }
 
 .tag-lists {
 	list-style: none;
 	line-height: 2;
-
 	padding-left: 22px;
 }

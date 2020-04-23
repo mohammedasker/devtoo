@@ -12,6 +12,7 @@ const Shop = () => (
 				🚀
 			</span>
 		</h2>
+		<hr />
 	</div>
 );
 

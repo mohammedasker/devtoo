@@ -1,6 +1,7 @@
 .article-wrapper {
 	margin: auto;
-	width: 50%;
+	padding-bottom: 1965px;
+	padding-right: 25px;
 }
 
 .article-container {
@@ -54,7 +55,7 @@
 }
 
 .time-read {
-	margin-left: 360px;
+	margin-left: 350px; /* change this one less than 350px and it will ruin the left sidebar & nav-article */
 }
 
 .avatar {

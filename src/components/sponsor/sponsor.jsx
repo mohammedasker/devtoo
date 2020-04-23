@@ -8,6 +8,7 @@ import Alcide from "../../assets/alcide.png";
 
 const Sponsor = () => (
 	<div className="sponsor-container">
+		<hr />
 		<p>
 			<b>
 				Community Sponsors{" "}

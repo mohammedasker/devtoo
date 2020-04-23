@@ -1,0 +1,33 @@
+.nav-article-list,
+.nav-article-line {
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	padding: 5px 9px 5px 9px;
+}
+
+.nav-article-container {
+	margin-left: 90px;
+}
+
+.nav-article-ul {
+	padding-left: 0;
+}
+
+.nav-article-line {
+	color: gainsboro;
+}
+
+.nav-article-list:hover {
+	background-color: #4e57ef;
+	cursor: pointer;
+}
+
+.active {
+	background-color: #cfd7ff;
+	border: 1px #4e57ef solid;
+}
+
+.nav-article-line {
+	cursor: default;
+}
