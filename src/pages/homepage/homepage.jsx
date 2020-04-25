@@ -8,9 +8,9 @@ import "./homepage.css";
 
 const Homepage = () => (
 	<div className="homepage-container">
-		<SidebarRight />
-		<MainContent />
 		<SidebarLeft />
+		<MainContent />
+		<SidebarRight />
 	</div>
 );
 
