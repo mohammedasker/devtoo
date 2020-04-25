@@ -20,12 +20,22 @@
 
 .nav-article-list:hover {
 	background-color: #4e57ef;
+	box-shadow: 3px 3px #cfd7ff;
+	color: white;
 	cursor: pointer;
 }
 
 .active {
 	background-color: #cfd7ff;
 	border: 1px #4e57ef solid;
+	box-shadow: 3px 3px #4e57ef;
+}
+
+.active:hover {
+	background-color: #4e57ef;
+	border: 1px #cfd7ff solid;
+	box-shadow: 3px 3px #cfd7ff;
+	color: white;
 }
 
 .nav-article-line {
