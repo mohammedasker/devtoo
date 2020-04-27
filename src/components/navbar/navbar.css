@@ -55,3 +55,42 @@
 	top: 2px;
 	bottom: 8px;
 }
+
+/* tablet screens*/
+@media only screen and (max-width: 768px) {
+	.topnav button {
+		margin-left: 0;
+	}
+
+	.topnav input[type="text"] {
+		width: 53%;
+	}
+}
+
+/* mobile screens*/
+@media only screen and (max-width: 600px) {
+	.topnav button {
+		display: none;
+	}
+
+	.nav-icons {
+		margin-left: 27px;
+		font-size: 20px;
+	}
+
+	.logo {
+		position: relative;
+		left: 2px;
+	}
+
+	.topnav input[type="text"] {
+		margin-left: 10px;
+		margin-right: 0;
+		width: 42%;
+		height: 30px;
+	}
+
+	.topnav a {
+		padding: 1px 1px 1px 3px;
+	}
+}
