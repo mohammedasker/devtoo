@@ -1,11 +1,17 @@
 .listings-text {
 	color: #3b49df;
 	list-style: none;
+	margin-top: 15px;
 }
 
 .listings-list {
 	list-style: none;
-	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.listings-list:hover {
+	cursor: pointer;
+	color: #3b49df;
 }
 
 .listings-top {
@@ -35,4 +41,5 @@
 
 .small-text {
 	font-size: 12px;
+	cursor: pointer;
 }

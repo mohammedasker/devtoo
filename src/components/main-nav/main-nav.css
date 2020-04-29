@@ -5,6 +5,11 @@
 .sidebar-list {
 	list-style: none;
 	line-height: 2;
+	cursor: pointer;
+}
+
+.sidebar-list:hover {
+	color: #3b49df;
 }
 
 .list-icons {

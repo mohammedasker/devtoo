@@ -8,6 +8,11 @@
 	list-style: none;
 }
 
+.discuss-list:hover {
+	cursor: pointer;
+	color: #3b49df;
+}
+
 .discuss-list::before {
 	content: "\2022";
 	color: #66e2d5;

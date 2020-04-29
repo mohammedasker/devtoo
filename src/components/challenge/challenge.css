@@ -4,8 +4,12 @@
 }
 
 .challenge-list {
-	margin-bottom: 5px;
 	list-style: none;
+}
+
+.challenge-list:hover {
+	cursor: pointer;
+	color: #3b49df;
 }
 
 .challenge-list::before {

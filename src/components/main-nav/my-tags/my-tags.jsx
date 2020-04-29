@@ -4,31 +4,31 @@ import "./my-tags.css";
 
 const MyTags = () => (
 	<div className="tag-container">
+		<p className="tag-header">
+			<b>Design Your Experience</b>
+		</p>
 		<ul className="tag-lists">
-			<li>
-				<b>Design Your Experience</b>
-			</li>
-			<li>#javascript</li>
-			<li>#beginners</li>
-			<li>#webdev</li>
-			<li>#react</li>
-			<li>#career</li>
-			<li>#css</li>
-			<li>#opensource</li>
-			<li>#git</li>
-			<li>
+			<li className="tag-list">#javascript</li>
+			<li className="tag-list">#beginners</li>
+			<li className="tag-list">#webdev</li>
+			<li className="tag-list">#react</li>
+			<li className="tag-list">#career</li>
+			<li className="tag-list">#css</li>
+			<li className="tag-list">#opensource</li>
+			<li className="tag-list">#git</li>
+			<p className="tag-second-header">
 				<b>Other Popular Tags</b>
-			</li>
-			<li>#tutorial</li>
-			<li>#python</li>
-			<li>#discuss</li>
-			<li>#productivity</li>
-			<li>#node</li>
-			<li>#devops</li>
-			<li>#showdev</li>
-			<li>#codenewbie</li>
-			<li>#html</li>
-			<li>#vue</li>
+			</p>
+			<li className="tag-list">#tutorial</li>
+			<li className="tag-list">#python</li>
+			<li className="tag-list">#discuss</li>
+			<li className="tag-list">#productivity</li>
+			<li className="tag-list">#node</li>
+			<li className="tag-list">#devops</li>
+			<li className="tag-list">#showdev</li>
+			<li className="tag-list">#codenewbie</li>
+			<li className="tag-list">#html</li>
+			<li className="tag-list">#vue</li>
 		</ul>
 	</div>
 );
