@@ -1,0 +1,13 @@
+/* mobile screen */
+@media only screen and (max-width: 600px) {
+	.sidebar-left-container {
+		display: none;
+	}
+}
+
+/* tablet screen */
+@media only screen and (max-width: 768px) {
+	.sidebar-left-container {
+		display: none;
+	}
+}
