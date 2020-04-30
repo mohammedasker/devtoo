@@ -5,14 +5,14 @@
 	width: 100%;
 	padding-bottom: 5px;
 	box-shadow: 0px 0px 0.5px 0.5px #888888;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .topnav a {
-	float: left;
-	display: block;
 	color: black;
 	text-align: center;
-	padding: 0px 16px;
+	padding: 2px 16px;
 	text-decoration: none;
 	font-size: 17px;
 }
@@ -22,11 +22,11 @@
 	border: 1px gray solid;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	margin-right: 16px;
 	font-size: 16px;
 	background-color: whitesmoke;
 	width: 30%;
 	height: 27px;
+	margin-right: auto;
 }
 
 .topnav button {
@@ -37,7 +37,7 @@
 	width: 120px;
 	font-size: 16px;
 	cursor: pointer;
-	margin-left: 500px;
+	margin: 5px 20px 0 20px;
 }
 
 .topnav button:hover {
@@ -45,25 +45,29 @@
 }
 
 .nav-icons {
-	margin-left: 20px;
 	font-size: 23px;
+	margin: 10px 20px 0 20px;
 }
 
 .logo {
-	position: relative;
-	left: 3px;
-	top: 2px;
-	bottom: 8px;
+	margin-right: auto;
 }
 
 /* tablet screens*/
 @media only screen and (max-width: 768px) {
 	.topnav button {
-		margin-left: 0;
+		margin-left: 10px;
+		margin-right: 0;
 	}
 
 	.topnav input[type="text"] {
 		width: 53%;
+		margin: 5px 0 0 5px;
+	}
+
+	.logo {
+		margin-left: 5px;
+		margin-top: 1px;
 	}
 }
 
@@ -74,7 +78,7 @@
 	}
 
 	.nav-icons {
-		margin-left: 27px;
+		margin: 15px;
 		font-size: 20px;
 	}
 
@@ -84,9 +88,8 @@
 	}
 
 	.topnav input[type="text"] {
-		margin-left: 10px;
-		margin-right: 0;
-		width: 42%;
+		margin: 5px 0 0px 7px;
+		width: 92%;
 		height: 30px;
 	}
 
