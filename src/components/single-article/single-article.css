@@ -7,6 +7,10 @@
 	flex-direction: column;
 }
 
+.post-title {
+	font-size: 1.7em;
+}
+
 .author,
 .post-date {
 	color: gray;
@@ -24,9 +28,7 @@
 	border: none;
 	height: 30px;
 	width: 60px;
-	margin-top: 10px;
-	margin-left: 15px;
-	margin-right: 10px;
+	margin: 10px 10px 5px 15px;
 	cursor: pointer;
 }
 
@@ -50,6 +52,8 @@
 
 .time-read {
 	margin-left: auto;
+	color: gray;
+	font-size: 0.8em;
 }
 
 .avatar {
@@ -60,10 +64,12 @@
 .like {
 	margin-top: 15px;
 	margin-left: 15px;
+	font-size: 0.8em;
 }
 .comment {
 	margin-top: 15px;
 	margin-left: 8px;
+	font-size: 0.8em;
 }
 
 .post-title,

@@ -9,7 +9,12 @@
 }
 
 .shop-text {
-	color: #3b49df;
+	color: #4a57ee;
 	margin-top: 0;
 	padding-top: 0;
+}
+
+.shop-text:hover {
+	cursor: pointer;
+	color: #4d5cf7;
 }

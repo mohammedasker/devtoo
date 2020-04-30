@@ -15,3 +15,8 @@
 	text-align: center;
 	margin-top: 1px;
 }
+
+.event-card-text:hover {
+	cursor: pointer;
+	color: #4d5cf7;
+}
