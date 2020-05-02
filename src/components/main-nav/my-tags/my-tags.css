@@ -18,3 +18,18 @@
 .tag-header {
 	margin-left: 22px;
 }
+
+.follow-tag-button {
+	background-color: #66e2d5;
+	color: black;
+	border: none;
+	font-weight: bold;
+	float: right;
+	margin-top: 8px;
+	margin-right: 15px;
+	padding: 2px 6px 2px 6px;
+}
+
+.follow-tag-button:hover {
+	cursor: pointer;
+}

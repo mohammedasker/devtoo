@@ -8,27 +8,60 @@ const MyTags = () => (
 			<b>Design Your Experience</b>
 		</p>
 		<ul className="tag-lists">
-			<li className="tag-list">#javascript</li>
-			<li className="tag-list">#beginners</li>
-			<li className="tag-list">#webdev</li>
-			<li className="tag-list">#react</li>
-			<li className="tag-list">#career</li>
-			<li className="tag-list">#css</li>
-			<li className="tag-list">#opensource</li>
-			<li className="tag-list">#git</li>
-			<p className="tag-second-header">
-				<b>Other Popular Tags</b>
-			</p>
-			<li className="tag-list">#tutorial</li>
-			<li className="tag-list">#python</li>
-			<li className="tag-list">#discuss</li>
-			<li className="tag-list">#productivity</li>
-			<li className="tag-list">#node</li>
-			<li className="tag-list">#devops</li>
-			<li className="tag-list">#showdev</li>
-			<li className="tag-list">#codenewbie</li>
-			<li className="tag-list">#html</li>
-			<li className="tag-list">#vue</li>
+			<li className="tag-list">
+				#javascript<button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#beginners<button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#webdev<button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#react<button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#career<button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#css<button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#opensource<button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#git<button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#tutorial <button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#python <button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#discuss <button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#productivity <button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#node <button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#devops <button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#showdev <button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#codenewbie <button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#html <button className="follow-tag-button">+ FOLLOW</button>
+			</li>
+			<li className="tag-list">
+				#vue <button className="follow-tag-button">+ FOLLOW</button>
+			</li>
 		</ul>
 	</div>
 );
