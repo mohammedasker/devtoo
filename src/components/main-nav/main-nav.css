@@ -15,3 +15,17 @@
 .list-icons {
 	margin-right: 15px;
 }
+
+.collapse {
+	display: none;
+}
+
+.collapse.show {
+	display: block;
+}
+
+.read-more {
+	color: grey;
+	margin-left: 37px;
+	cursor: pointer;
+}
