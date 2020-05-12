@@ -18,3 +18,17 @@
 	cursor: pointer;
 	color: #4d5cf7;
 }
+
+/* tablet screen */
+@media only screen and (max-width: 768px) {
+	.shop-container {
+		margin-left: 15px;
+	}
+}
+
+/* mobile screen */
+@media only screen and (max-width: 600px) {
+	.shop-container {
+		margin-left: 15px;
+	}
+}
