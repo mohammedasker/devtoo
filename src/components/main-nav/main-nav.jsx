@@ -101,13 +101,13 @@ const MainNav = () => {
 						<SocialMedia />
 					</div>
 				</Collapse>
-				<a
+				<p
 					onClick={() => setOpen(!open)}
 					className="read-more"
 					style={{ display: !open ? null : "none" }}
 				>
 					More...{" "}
-				</a>
+				</p>
 			</ul>
 		</div>
 	);
