@@ -35,6 +35,8 @@ const NavArticle = () => {
 		window.onclick = (e) => {
 			if (e.target === overlay) {
 				overlay.style.display = "none";
+				setOpen(false);
+				setOpenRight(false);
 			}
 		};
 	});
