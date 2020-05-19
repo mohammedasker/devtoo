@@ -14,6 +14,10 @@
 	padding-top: 0;
 }
 
+.shop-link {
+	text-decoration: none;
+}
+
 .shop-text:hover {
 	cursor: pointer;
 	color: #4d5cf7;

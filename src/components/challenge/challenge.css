@@ -5,11 +5,13 @@
 
 .challenge-list {
 	list-style: none;
+	padding: 3px 3px 6px 3px;
 }
 
 .challenge-list:hover {
 	cursor: pointer;
 	color: #3b49df;
+	background-color: #e0e0e0;
 }
 
 .challenge-list::before {

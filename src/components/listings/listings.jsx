@@ -12,7 +12,6 @@ const Listings = () => (
 			<button className="listings-button">-</button>
 		</div>
 		<ul>
-			<li className="listings-list"></li>
 			<li className="listings-list">
 				<span role="img" aria-label="rocket">
 					🚀
@@ -25,35 +24,34 @@ const Listings = () => (
 				<span role="img" aria-label="party">
 					🎉🎉
 				</span>{" "}
-				education <br />
-			</li>
-			<span className="small-text">education</span>
-			<li className="listings-list">
-				MESG: launch advanced applications quicker & faster cfp
 				<br />
+				<span className="small-text">education</span>
 			</li>
-			<span className="small-text">cfp</span>
+			<li className="listings-list">
+				MESG: launch advanced applications quicker & faster
+				<br />
+				<span className="small-text">cfp</span>
+			</li>
 			<li className="listings-list">
 				Looking for tech content writers{" "}
 				<span role="img" aria-label="money">
 					💰
 				</span>{" "}
-				jobs
 				<br />
+				<span className="small-text">jobs</span>
 			</li>
-			<span className="small-text">jobs</span>
 
 			<li className="listings-list">
-				OVERPASS: Personalized Pair Programming Sessions! mentors
+				OVERPASS: Personalized Pair Programming Sessions!
 				<br />
+				<span className="small-text">mentors</span>
 			</li>
-			<span className="small-text">mentors</span>
 
 			<li className="listings-list">
 				CTOs Talk K8s and SaaS
 				<br />
+				<span className="small-text">events</span>
 			</li>
-			<span className="small-text">events</span>
 
 			<li className="listings-text">CREATING A LISTINGS</li>
 		</ul>

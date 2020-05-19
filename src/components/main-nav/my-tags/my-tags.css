@@ -13,6 +13,7 @@
 
 .tag-list:hover {
 	cursor: pointer;
+	background-color: #e0e0e0;
 }
 
 .tag-header {

@@ -4,13 +4,14 @@
 }
 
 .discuss-list {
-	margin-bottom: 5px;
 	list-style: none;
+	padding: 3px;
 }
 
 .discuss-list:hover {
 	cursor: pointer;
 	color: #3b49df;
+	background-color: #e0e0e0;
 }
 
 .discuss-list::before {
