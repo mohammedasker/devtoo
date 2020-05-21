@@ -8,12 +8,17 @@
 	height: auto;
 	max-width: 250px;
 	border: 1px solid #ff8dcf;
+	cursor: pointer;
 }
 
 .event-card-text {
 	color: #3b49df;
 	text-align: center;
 	margin-top: 1px;
+}
+
+.event-link {
+	text-decoration: none;
 }
 
 .event-card-text:hover {

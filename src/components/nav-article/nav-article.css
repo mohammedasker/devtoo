@@ -54,6 +54,7 @@
 	background: #f4f4f4;
 	width: 37vw;
 	margin-top: 60px;
+	transition: 5s;
 }
 
 .sidebar-container-right {
@@ -80,6 +81,11 @@
 	overflow-x: hidden;
 }
 
+.database-icon-tablet,
+.bolt-icon-tablet {
+	display: none;
+}
+
 /* tablet screen*/
 @media only screen and (max-width: 768px) {
 	.nav-article-mobile {
@@ -90,6 +96,7 @@
 	.bolt-icon-tablet {
 		color: black;
 		font-size: 20px;
+		display: inline-block;
 	}
 
 	.database-icon-tablet {
