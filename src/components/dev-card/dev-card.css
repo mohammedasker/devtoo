@@ -6,7 +6,7 @@
 	flex-wrap: wrap;
 	flex-direction: column;
 	margin-bottom: 15px;
-	padding: 35px;
+	padding: 0;
 }
 
 .dev-card-title {
@@ -30,6 +30,7 @@
 	width: 65px;
 	height: 65px;
 	margin-top: 30px;
+	margin-left: 20px;
 	transform: rotate(-15deg);
 }
 
@@ -37,16 +38,19 @@
 .dev-card-login-button {
 	background-color: #3b49df;
 	color: white;
+	font-weight: 500;
 	border: none;
 	height: 30px;
 	width: 180px;
-	padding: 5px;
-	margin-bottom: 15px;
-	margin-left: 100px;
+	padding: 0.5em;
+	margin-bottom: 5px;
 	cursor: pointer;
 	text-decoration: none;
 	text-align: center;
 	transition: 0.3s;
+	margin: 0 auto;
+	display: block;
+	margin-left: 60px;
 }
 
 .dev-card-signup-button:hover {
@@ -64,6 +68,7 @@
 
 .custom-column-top {
 	display: flex;
+	flex-direction: column;
 }
 
 .custom-column-bottom {
@@ -102,4 +107,19 @@
 .post-tags,
 .likes {
 	margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+	.dev-card-container {
+		padding: 35px;
+	}
+	.custom-column-top {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.dev-card-signup-button,
+	.dev-card-login-button {
+		margin-left: 70px;
+	}
 }

@@ -1,0 +1,92 @@
+.article-container {
+	box-shadow: 0px 0px 0.5px 0.5px #888888;
+	border-radius: 5px;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+
+.post-title {
+	font-size: 1.7em;
+}
+
+.author,
+.post-date {
+	color: gray;
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.post-button {
+	background-color: blue;
+	color: white;
+	border: none;
+	height: 30px;
+	width: 60px;
+	margin: 10px 10px 5px 15px;
+	cursor: pointer;
+}
+
+.post-button:hover {
+	background-color: #0000ce;
+}
+
+.custom-column-top {
+	display: flex;
+}
+
+.custom-column-bottom {
+	display: flex;
+}
+
+.custom-row {
+	display: flex;
+	flex-direction: column;
+	margin-left: 25px;
+}
+
+.time-read {
+	margin-left: auto;
+	color: gray;
+	font-size: 0.8em;
+}
+
+.avatar {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.like {
+	margin-top: 15px;
+	margin-left: 15px;
+	font-size: 0.8em;
+}
+.comment {
+	margin-top: 15px;
+	margin-left: 8px;
+	font-size: 0.8em;
+}
+
+.post-title,
+.post-tags,
+.likes {
+	margin: 0;
+}
+
+.image-post {
+	width: 100%;
+	height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+	.image-post {
+		width: 100%;
+		height: auto;
+	}
+}
